@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.slider').slick({
-        arrows: true,
+        arrows: false,
         slidesToShow: 2,
         slidesToScroll: 1,
         speed: 300,
