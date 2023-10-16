@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.banner{
+    background-color: #000000;
+    padding: 102px 0;
+}
+
+.banner_content{
+    background-image: url("img/planet.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 616px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner__head{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    max-width: 863px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.banner__head span{
+    background-color: white;
+    border-radius: 20px;
+    color: #000000;
+    padding: 5px;
+}
+.banner__bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.banner__bottom p{
+    color: #ffffff;
+    max-width: 255px;
+}
+
+.banner__bottom_btn{
+    width: 250px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.trust{
+    background-color: #F5F5F5;
+    padding: 100px 0;
+}
+.trust h1{
+    text-align: center;
+    margin-bottom: 53px;
+}
+.trust__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+.trust__item-numb{
+    width: fit-content;
+    padding: 12px 19px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.trust__item img{
+    background: #ffffff;
+    padding: 37px 29px 37px 10px;
+    width: 190px;
+    border-radius: 20px;
+}
+
+.benefit{
+    padding: 100px 0;
+    background-color: #222222;
+}
+.benefit h1{
+    text-align: center;
+    color: #ffffff;
+}
