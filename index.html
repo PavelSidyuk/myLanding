@@ -11,7 +11,27 @@
 </head>
 <body>
 <header>
-
+    <div class="container">
+        <div class="header">
+            <div class="header__name">
+                <h3>StartTheHistory</h3>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="nav">
+                <ul class="header__list">
+                    <li><a href="#trust" class="header__link">Почему мне можно доверять?</a></li>
+                    <li><a href="#benefit" class="header__link">Что вы получите?</a></li>
+                    <li><a href="#reasons" class="header__link">Почему оно того стоит?</a></li>
+                    <li><a href="#creature" class="header__link">Как создавался продукт?</a></li>
+                    <li><a href="#reviews" class="header__link">Отзывы</a></li>
+                    <li><a href="#" class="header__link">Часто задаваемые вопросы</a></li>
+                    <li><a href="#" class="header__link">Купить</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
 
 <div class="banner">
@@ -29,7 +49,7 @@
     </div>
 
 </div>
-<div class="trust">
+<div class="trust" id="trust">
     <div class="container">
         <h1>Почему мне можно доверять?</h1>
         <div class="trust__wrapper">
@@ -72,7 +92,7 @@
         </div>
     </div>
 </div>
-<div class="benefit">
+<div class="benefit" id="benefit">
     <div class="container">
         <h1>Что вы получите?</h1>
         <div class="benefit__wrapper">
@@ -105,7 +125,7 @@
         </div>
     </div>
 </div>
-<div class="reasons">
+<div class="reasons" id="reasons">
     <div class="container">
         <h1>Почему оно того стоит?</h1>
         <div class="reasons__wrapper">
@@ -145,7 +165,7 @@
         </div>
     </div>
 </div>
-<div class="creature">
+<div class="creature" id="creature">
     <div class="container">
         <h1>Как создавался продукт?</h1>
         <div class="creature__wrapper">
@@ -192,25 +212,33 @@
         </div>
     </div>
 </div>
-<div class="reviews">
+<div class="reviews" id="reviews">
     <div class="container">
         <h1>Отзывы</h1>
-            <div class="slider">
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-                <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
-            </div>
+        <div class="slider">
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
+            <div class="slider__item"><img src="img/reviews_1.png" alt=""></div>
         </div>
+    </div>
 </div>
+<div class="questions">
+    <div class="container">
+        <h1>Часто задаваемые вопросы</h1>
+    </div>
+</div>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/slid.js"></script>
+<script src="js/burger.menu.js"></script>
 </body>
 </html>

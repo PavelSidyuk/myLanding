@@ -10,13 +10,7 @@ $(document).ready(function () {
         $(".header__link").click(function(event){
             $('.header__list li').removeClass();
             $(this).parent().addClass('active');
-        });
-    });
-
-    $(document).ready(function(){
-        $(".practices__nav-linc").click(function(event){
-            $('.practices__nav li').removeClass();
-            $(this).parent().addClass('active');
+            $(' header .nav, .header__burger').removeClass('active');
         });
     });
 
