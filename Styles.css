@@ -12,6 +12,8 @@ h1 {
     line-height: 57px;
 }
 
+
+
 h3 {
     font-size: 20px;
     font-weight: 400;
@@ -522,6 +524,11 @@ header{
     border-radius: 10px;
 }
 
+.promo{
+    background-image: url("img/promo.png");
+    background-size: cover;
+    height: 430px;
+}
 .questions{
     background-color: #222222;
     padding: 100px 0;
@@ -530,4 +537,82 @@ header{
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 52px;
+}
+
+.questions summary{
+
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #598BE0;
+}
+.questions details{
+    margin-bottom: 15px;
+}
+.questions details div{
+    padding: 57px 40px;
+    color: #ffffff;
+    background: #1A1A1A;
+    border: 2px solid #FFFFFF33;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.buy{
+    background-color: #222222;
+    padding: 100px 0;
+}
+.buy__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.buy__left{
+    padding: 64px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    border-right: dashed #222222 2px;
+}
+.buy__right{
+    padding: 64px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.buy__left_cost{
+    margin-bottom: 22px;
+}
+.buy__left h1{
+    margin-bottom: 55px;
+}
+
+.buy__left_cost span{
+    background: #598BE0;
+    padding: 13px 29px;
+    border-radius: 50px;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 87px;
+    color: #ffffff;
+}
+.buy__left_cost_old{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #000000B2;
+    margin-bottom: 75px;
+}
+.buy__left_discount{
+    margin-top:75px ;
+    padding: 13px 22px;
+    background: #FFF0E9;
+    border-radius: 20px;
+}
+.buy__left_discount p{
+    font-weight: 600;
+    line-height: 25px;
+    color: #FF671B;
 }
