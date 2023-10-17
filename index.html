@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MyLanding</title>
 </head>
 <body>
@@ -38,12 +39,12 @@
     <div class="container">
         <div class="banner_content">
             <div class="banner__head">
-                <h1><span>То,&nbsp;что</span>изменит&nbsp;ваше&nbsp;представление о мире инвестиций</h1>
+                <h1><span>То,&nbsp;что</span>изменит ваше представление о мире инвестиций</h1>
             </div>
             <div class="banner__bottom">
                 <p>То, что даст вам преимущество<br> перед остальными<br> инвесторами.</p>
-                <a href="#" class="banner__bottom_btn">Подробнее</a>
-                <p>То, что следует<br> знать.</p>
+                <div><a href="#" class="banner__bottom_btn">Подробнее</a></div>
+                <p class="end">То, что следует<br> знать.</p>
             </div>
         </div>
     </div>
@@ -270,7 +271,20 @@
                     <p>скидка 55% только на неделю.</p>
                 </div>
             </div>
-            <div class="buy__right"></div>
+            <div class="buy__right">
+                <h1>Заполните форму</h1>
+                <form action="#">
+                    <div class="form__item">
+                        <div><label for="name">Имя</label></div>
+                        <input type="text" id="name" class="form__name" name="name">
+                    </div>
+                    <div class="form__item">
+                        <div><label for="name">Почта</label></div>
+                        <input type="email" id="email" class="form__email" name="email">
+                    </div>
+                    <button type="submit" class="form__submit">Отправить</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
