@@ -174,11 +174,16 @@ header{
 }
 
 .banner__bottom {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
 }
-
+.banner__bottom div{
+    display: flex;
+    justify-content: center
+}
 .banner__bottom p {
     color: #ffffff;
     max-width: 255px;
@@ -782,4 +787,15 @@ header{
         border-right: none;
         border-bottom:dashed #222222 2px ;
     }
+
+    .banner__bottom div{
+        display: flex;
+        justify-content: center;
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    .end {
+        grid-column: 3/4;
+    }
+
 }
