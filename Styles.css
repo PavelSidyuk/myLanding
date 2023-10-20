@@ -726,7 +726,6 @@ header{
         grid-row: auto;
     }
     .benefit__item.big__item img {
-        width: auto;
         height: 100%;
     }
     .benefit__item.item__bottom {
